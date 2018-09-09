@@ -1,0 +1,21 @@
+﻿
+
+    //var startTimeSpan = TimeSpan.Zero;
+    //var periodTimeSpan = TimeSpan.FromSeconds(1);
+
+    //var timer = new System.Threading.Timer((e) =>
+    //{
+    //    MyMethod();
+    //}, null, startTimeSpan, periodTimeSpan);
+
+
+
+	static void MyMethod()
+        {
+            Console.WriteLine("*** Method is executed at {0} ***", DateTime.Now);
+            Console.ReadLine();
+        }
+
+
+
+

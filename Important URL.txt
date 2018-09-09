@@ -1,0 +1,17 @@
+8:28 PM 8/19/2018
+
+
+Last implemented:
+https://stackoverflow.com/questions/10182751/server-client-send-receive-simple-text
+
+
+
+
+Dynamic recever:
+http://www.java2s.com/Tutorial/CSharp/0580__Network/SimpleTcpClientsenddatatotheserver.htm
+
+
+
+Best:
+http://www.java2s.com/Tutorial/CSharp/0580__Network/0100__Socket-Client.htm
+

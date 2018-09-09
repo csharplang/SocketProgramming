@@ -30,12 +30,11 @@
         {
             this.btnSendData = new System.Windows.Forms.Button();
             this.richSendData = new System.Windows.Forms.RichTextBox();
-            this.lblListening = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSendData
             // 
-            this.btnSendData.Location = new System.Drawing.Point(79, 208);
+            this.btnSendData.Location = new System.Drawing.Point(174, 561);
             this.btnSendData.Name = "btnSendData";
             this.btnSendData.Size = new System.Drawing.Size(153, 52);
             this.btnSendData.TabIndex = 3;
@@ -45,26 +44,17 @@
             // 
             // richSendData
             // 
-            this.richSendData.Location = new System.Drawing.Point(51, 32);
+            this.richSendData.Location = new System.Drawing.Point(12, 12);
             this.richSendData.Name = "richSendData";
-            this.richSendData.Size = new System.Drawing.Size(243, 123);
+            this.richSendData.Size = new System.Drawing.Size(540, 526);
             this.richSendData.TabIndex = 2;
             this.richSendData.Text = "";
-            // 
-            // lblListening
-            // 
-            this.lblListening.AutoSize = true;
-            this.lblListening.Location = new System.Drawing.Point(76, 174);
-            this.lblListening.Name = "lblListening";
-            this.lblListening.Size = new System.Drawing.Size(0, 13);
-            this.lblListening.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(350, 331);
-            this.Controls.Add(this.lblListening);
+            this.ClientSize = new System.Drawing.Size(564, 625);
             this.Controls.Add(this.btnSendData);
             this.Controls.Add(this.richSendData);
             this.MaximizeBox = false;
@@ -73,7 +63,6 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -81,7 +70,6 @@
 
         private System.Windows.Forms.Button btnSendData;
         private System.Windows.Forms.RichTextBox richSendData;
-        private System.Windows.Forms.Label lblListening;
     }
 }
 

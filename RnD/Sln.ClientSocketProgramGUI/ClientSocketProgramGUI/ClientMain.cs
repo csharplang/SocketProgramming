@@ -1,16 +1,17 @@
-﻿using System;
+﻿using ClientAppGUI.Resources;
+using System;
 using System.Net.Sockets;
 using System.Text;
 using System.Windows.Forms;
 
 namespace ClientSocketProgramGUI
 {
-    public partial class Form1 : Form
+    public partial class ClientMain : Form
     {
 
-        System.Net.Sockets.TcpClient clientSocket = new System.Net.Sockets.TcpClient();
+        TcpClient clientSocket = new TcpClient();
 
-        public Form1()
+        public ClientMain()
         {
             InitializeComponent();
         }
@@ -18,7 +19,7 @@ namespace ClientSocketProgramGUI
         private void Form1_Load(object sender, EventArgs e)
         {
             msg("Client Started");
-            clientSocket.Connect("192.168.0.107", 5000);
+            clientSocket.Connect(Common.ServerIP, Convert.ToInt16(Common.ServerPort));
             label1.Text = "Client Socket Program - Server Connected ...";
         }
 
@@ -27,7 +28,7 @@ namespace ClientSocketProgramGUI
         private void btnSend_Click(object sender, EventArgs e)
         {
             NetworkStream serverStream = clientSocket.GetStream();
-            byte[] outStream = System.Text.Encoding.ASCII.GetBytes(richTextBox2.Text + "$");
+            byte[] outStream = Encoding.ASCII.GetBytes(richTextBox2.Text + "$");
             serverStream.Write(outStream, 0, outStream.Length);
             serverStream.Flush();
 

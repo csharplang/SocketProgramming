@@ -36,7 +36,9 @@ namespace ServerSocketProgram
                 }
                 catch (Exception ex)
                 {
+                    //Message = "Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host."
                     Console.WriteLine(ex.ToString());
+                    return;
                 }
             }
 

@@ -1,0 +1,70 @@
+﻿static void Main(string[] args)
+        {
+            TcpListener serverSocket = new TcpListener(5000);
+            int requestCount = 0;
+            TcpClient clientSocket = default(TcpClient);
+            serverSocket.Start();
+            Console.WriteLine(" >> Server Started");
+            clientSocket = serverSocket.AcceptTcpClient();
+            Console.WriteLine(" >> Accept connection from client");
+            requestCount = 0;
+
+            while ((true))
+            {
+                try
+                {
+                    //string str;
+                    //using (NetworkStream stream = clientSocket.GetStream())
+                    //{
+                    //    byte[] data = new byte[1024];
+                    //    using (MemoryStream ms = new MemoryStream())
+                    //    {
+                    //        int numByteReads;
+                    //        while ((numByteReads = stream.Read(data, 0, data.Length)) > 0)
+                    //        {
+                    //            ms.Write(data, 0, numByteReads);
+                    //        }
+                    //        str = Encoding.ASCII.GetString(ms.ToArray(), 0, (int)ms.Length);
+                    //    }
+                    //}
+
+
+                    requestCount = requestCount + 1;
+                    NetworkStream networkStream = clientSocket.GetStream();
+                    byte[] buffer = new byte[1000025];
+
+
+                    networkStream.Read(buffer, 0, 1000025);  //(int)clientSocket.ReceiveBufferSize
+
+                    //string dataFromClient = Encoding.ASCII.GetString(bytesFrom);
+
+                    //string dataFromClient = Encoding.UTF8.GetString(buffer);
+                    string dataFromClient = Encoding.ASCII.GetString(buffer);
+                    //dataFromClient = dataFromClient.Substring(0, dataFromClient.Length);
+
+
+                    BinaryReader bReader = new BinaryReader(clientSocket.GetStream());
+                    string receiveData = bReader.ReadString();
+                    Console.WriteLine(" >> Data from client - " + receiveData);
+
+
+                    //Console.WriteLine(" >> Data from client - " + dataFromClient);
+                    //string serverResponse = "Last Message from client" + dataFromClient;
+                    //Byte[] sendBytes = Encoding.ASCII.GetBytes(serverResponse);
+                    //networkStream.Write(sendBytes, 0, sendBytes.Length);
+                    //networkStream.Flush();
+                    //Console.WriteLine(" >> " + serverResponse);
+                }
+                catch (Exception ex)
+                {
+                    //Message = "Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host."
+                    Console.WriteLine(ex.ToString());
+                    //return;
+                }
+            }
+
+            clientSocket.Close();
+            serverSocket.Stop();
+            Console.WriteLine(" >> exit");
+            Console.ReadLine();
+        }

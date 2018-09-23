@@ -162,7 +162,7 @@ namespace ServerSocketProgram
                     requestCount = requestCount + 1;
                     NetworkStream networkStream = clientSocket.GetStream();
                     byte[] buffer = new byte[1000025];
-                    networkStream.Read(buffer, 0, (int)clientSocket.ReceiveBufferSize);                  
+                    var abc2= networkStream.Read(buffer, 0, (int)clientSocket.ReceiveBufferSize);                  
 
                     //string dataFromClient = Encoding.ASCII.GetString(buffer);
                     string dataFromClient = Encoding.UTF8.GetString(buffer);

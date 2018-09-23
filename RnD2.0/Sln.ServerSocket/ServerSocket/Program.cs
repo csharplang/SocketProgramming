@@ -15,7 +15,7 @@ namespace ServerSocket
             int requestCount = 0;
             TcpClient clientSocket = default(TcpClient);
             serverSocket.Start();
-            Console.WriteLine(" >> Server Started: "+ DateTime.Now + " \nWaiting for connection... ");
+            Console.WriteLine(" >> Server Started: " + DateTime.Now + " \nWaiting for connection... ");
             clientSocket = serverSocket.AcceptTcpClient();
             Console.WriteLine(" >> Accept connection from client: " + DateTime.Now);
 
@@ -43,7 +43,7 @@ namespace ServerSocket
                 }
                 catch (Exception ex)
                 {
-                    //Console.WriteLine(ex.ToString());
+                    //Console.WriteLine(ex.ToString()); 
                     if (ex.Message == ConstantVar.ClientConnLost)
                     {
                         clientSocket.Close();
@@ -53,7 +53,7 @@ namespace ServerSocket
                         clientSocket = default(TcpClient);
                         serverSocket.Start();
                         Console.WriteLine(" >> Connection lost... :" + DateTime.Now);
-                        Console.WriteLine(" >> Server Started after connection lost: "+ DateTime.Now + " \nWaiting for connection... ");
+                        Console.WriteLine(" >> Server Started after connection lost: " + DateTime.Now + " \nWaiting for connection... ");
                         clientSocket = serverSocket.AcceptTcpClient();
                         Console.WriteLine(" >> Accept connection from client:" + DateTime.Now);
                     }

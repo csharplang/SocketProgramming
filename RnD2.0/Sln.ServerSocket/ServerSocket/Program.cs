@@ -15,27 +15,16 @@ namespace ServerSocket
             int requestCount = 0;
             TcpClient clientSocket = default(TcpClient);
             serverSocket.Start();
-            Console.WriteLine(" >> Server Started");
+            Console.WriteLine(" >> Server Started: "+ DateTime.Now + " \nWaiting for connection... ");
             clientSocket = serverSocket.AcceptTcpClient();
-            Console.WriteLine(" >> Accept connection from client");
+            Console.WriteLine(" >> Accept connection from client: " + DateTime.Now);
 
             while ((true))
             {
                 try
                 {
-                    //requestCount = requestCount + 1;
-                    //NetworkStream networkStream = clientSocket.GetStream();
-                    //byte[] buffer = new byte[1000025];
+                    requestCount = requestCount + 1;
 
-                    //var abc = networkStream.Read(buffer, 0, 1000025);  //(int)clientSocket.ReceiveBufferSize
-
-                    //BinaryReader bReader = new BinaryReader(clientSocket.GetStream());
-                    //string receiveData = bReader.ReadString();
-
-                    //Console.WriteLine(" >> Data from client - " + receiveData);
-
-
-                    // read and display the response
                     NetworkStream networkStream = clientSocket.GetStream();
                     byte[] bytes = new byte[clientSocket.ReceiveBufferSize];
                     int bytesRead = networkStream.Read(bytes, 0, clientSocket.ReceiveBufferSize);
@@ -46,12 +35,11 @@ namespace ServerSocket
                     Console.WriteLine(" >> Data from client - " + receivedData);
 
 
-
-                    //string serverResponse = "Last Message from Server: " + receiveData;
-                    //Byte[] sendBytes = Encoding.ASCII.GetBytes(serverResponse);
-                    //networkStream.Write(sendBytes, 0, sendBytes.Length);
-                    //networkStream.Flush();
-                    //Console.WriteLine(" >> " + serverResponse);
+                    //Reply to client***
+                    string serverResponse = "Last Message from Server: Status Code: OK >>" + DateTime.Now;
+                    Byte[] sendBytes = Encoding.ASCII.GetBytes(serverResponse);
+                    networkStream.Write(sendBytes, 0, sendBytes.Length);
+                    networkStream.Flush();
                 }
                 catch (Exception ex)
                 {
@@ -64,7 +52,8 @@ namespace ServerSocket
                         requestCount = 0;
                         clientSocket = default(TcpClient);
                         serverSocket.Start();
-                        Console.WriteLine(" >> Server Started after connection lost:" + DateTime.Now);
+                        Console.WriteLine(" >> Connection lost... :" + DateTime.Now);
+                        Console.WriteLine(" >> Server Started after connection lost: "+ DateTime.Now + " \nWaiting for connection... ");
                         clientSocket = serverSocket.AcceptTcpClient();
                         Console.WriteLine(" >> Accept connection from client:" + DateTime.Now);
                     }

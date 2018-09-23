@@ -165,14 +165,14 @@ namespace ServerSocketProgram
                     networkStream.Read(buffer, 0, (int)clientSocket.ReceiveBufferSize);                  
 
                     //string dataFromClient = Encoding.ASCII.GetString(buffer);
-                    //string dataFromClient = Encoding.UTF8.GetString(buffer);
+                    string dataFromClient = Encoding.UTF8.GetString(buffer);
 
-                    BinaryReader bReader = new BinaryReader(networkStream);
-                    string dataFromClient = bReader.ReadString();
+                    //BinaryReader bReader = new BinaryReader(networkStream);
+                    //string dataFromClient = bReader.ReadString();
 
-                    //var abc = dataFromClient.Length;
-                    //dataFromClient = dataFromClient.Substring(0, dataFromClient.IndexOf("$"));
-                    dataFromClient = dataFromClient.Substring(0, 100);
+                    var abc = dataFromClient.Length;
+                    dataFromClient = dataFromClient.Substring(0, dataFromClient.IndexOf("$"));
+                    //dataFromClient = dataFromClient.Substring(0, 100);
 
                     Console.WriteLine(" >> Data from client - " + dataFromClient);
                     string serverResponse = "Last Message from client" + dataFromClient;

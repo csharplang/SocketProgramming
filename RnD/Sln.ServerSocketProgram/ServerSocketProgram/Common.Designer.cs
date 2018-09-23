@@ -61,7 +61,7 @@ namespace ServerSocketProgram {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 192.168.0.107.
+        ///   Looks up a localized string similar to 192.168.0.100.
         /// </summary>
         public static string ServerIP {
             get {

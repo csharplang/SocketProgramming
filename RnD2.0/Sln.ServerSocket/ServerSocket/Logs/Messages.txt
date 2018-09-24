@@ -1,0 +1,57 @@
+
+Log Entry : 2:40:30 AM Tuesday, September 25, 2018
+  :
+  : >> Server Started: 9/25/2018 2:40:30 AM 
+ >> Waiting for connection... 
+-------------------------------
+
+Log Entry : 2:42:12 AM Tuesday, September 25, 2018
+  :
+  : >> Accept connection from client: 9/25/2018 2:42:12 AM
+-------------------------------
+
+Log Entry : 2:42:20 AM Tuesday, September 25, 2018
+  :
+  :Hello world!
+-------------------------------
+
+Log Entry : 2:42:24 AM Tuesday, September 25, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 2:42:24 AM Tuesday, September 25, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 2:42:24 AM Tuesday, September 25, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 2:42:26 AM Tuesday, September 25, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 2:42:26 AM Tuesday, September 25, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 2:42:26 AM Tuesday, September 25, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 2:42:28 AM Tuesday, September 25, 2018
+  :
+  : >> Connection lost... :9/25/2018 2:42:28 AM
+-------------------------------
+
+Log Entry : 2:42:28 AM Tuesday, September 25, 2018
+  :
+  : >> Server Started after connection lost: 9/25/2018 2:42:28 AM 
+  >> Waiting for connection... 
+-------------------------------

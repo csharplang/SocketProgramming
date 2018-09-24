@@ -1,6 +1,6 @@
-﻿using ServerSocket.Resources;
+﻿using ServerSocket.Logs;
+using ServerSocket.Resources;
 using System;
-using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -15,9 +15,13 @@ namespace ServerSocket
             int requestCount = 0;
             TcpClient clientSocket = default(TcpClient);
             serverSocket.Start();
-            Console.WriteLine(" >> Server Started: " + DateTime.Now + " \nWaiting for connection... ");
+            string serverStarted = " >> Server Started: " + DateTime.Now + " \n >> Waiting for connection... ";
+            Console.WriteLine(serverStarted);
+            Helper.WrittingLogs(serverStarted);
             clientSocket = serverSocket.AcceptTcpClient();
-            Console.WriteLine(" >> Accept connection from client: " + DateTime.Now);
+            string acceptConnection = " >> Accept connection from client: " + DateTime.Now;
+            Console.WriteLine(acceptConnection);
+            Helper.WrittingLogs(acceptConnection);
 
             while ((true))
             {
@@ -33,6 +37,7 @@ namespace ServerSocket
                     receivedData = receivedData.Replace("\0", String.Empty);
                     receivedData = receivedData.Replace("$", String.Empty);
                     Console.WriteLine(" >> Data from client - " + receivedData);
+                    Helper.WrittingLogs(receivedData);
 
 
                     //Reply to client***
@@ -53,9 +58,12 @@ namespace ServerSocket
                         clientSocket = default(TcpClient);
                         serverSocket.Start();
                         Console.WriteLine(" >> Connection lost... :" + DateTime.Now);
-                        Console.WriteLine(" >> Server Started after connection lost: " + DateTime.Now + " \nWaiting for connection... ");
+                        Helper.WrittingLogs(" >> Connection lost... :" + DateTime.Now);
+                        Console.WriteLine(" >> Server Started after connection lost: " + DateTime.Now + " \n  >> Waiting for connection... ");
+                        Helper.WrittingLogs(" >> Server Started after connection lost: " + DateTime.Now + " \n  >> Waiting for connection... ");
                         clientSocket = serverSocket.AcceptTcpClient();
-                        Console.WriteLine(" >> Accept connection from client:" + DateTime.Now);
+                        Console.WriteLine(" >> Accept connection from client: " + DateTime.Now);
+                        Helper.WrittingLogs(" >> Accept connection from client: " + DateTime.Now);
                     }
 
                 }

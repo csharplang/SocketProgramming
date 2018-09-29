@@ -49,7 +49,7 @@ namespace ServerSocket
                 catch (Exception ex)
                 {
                     //Console.WriteLine(ex.ToString()); 
-                    if (ex.Message == ConstantVar.ClientConnLost)
+                    if (ex.Message == ConstantVar.ClientConnLost || ex.InnerException.Message == ConstantVar.innerExceptionClientConnLost)
                     {
                         clientSocket.Close();
                         serverSocket.Stop();

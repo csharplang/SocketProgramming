@@ -1,0 +1,56 @@
+﻿
+Data Link Messages in chapter 2.
+
+
+Communications protocols other than the ASTM protocol
+
+Note In the Protocol area, ASTM protocol uses 8-bit, single-byte
+characters. ASTM protocol does not support UNICODE characters
+
+Using ASTM protocol and sending non-8 bit ASCII values in the records to
+the instrument causes invalid data in those fields
+
+Physical Layer for TCP/IP Connection
+
+
+###Each ASTM record is a variable length
+record terminated by a carriage return character (<CR>).
+H| \^& | <CR>
+P| 1 <CR>
+O| 1 |S19255 | |^^^T4 | R | | | | | | | | | | | | | | | | | | | | O <CR>
+L| 1<CR>
+This application message consists of the following elements:
+• H (header) record
+• P (patient) record
+• O (order) record
+• L (termination) record
+
+
+For a complete description of application messages, see ASTM document
+E1394-91. For a complete description of the implementation of the ASTM
+application layer by the system, see the Application Layer Protocol‚
+page 62.
+
+
+
+ASCII mnemonics 
+For a complete description of the ASTM data link layer
+specification, see ASTM document E1381-95
+
+
+
+For a complete description of the ASTM data link layer, see ASTM
+document E1381-95. This ASTM document explains ASTM data link layer
+protocol phases, message formats, timing constraints, restricted
+characters, error recovery, and a state transition diagram
+
+
+The ASTM communications protocol uses a standard RS-232
+
+
+
+
+
+
+
+

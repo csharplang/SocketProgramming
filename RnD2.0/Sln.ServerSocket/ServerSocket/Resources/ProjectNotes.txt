@@ -1,0 +1,9 @@
+﻿
+
+//string receivedData = Encoding.UTF8.GetString(bytes);
+UTF8 OK
+ASCII OK
+UTF7 OK
+UTF32 Not OK
+Unicode Not OK
+

@@ -33,7 +33,7 @@ namespace ServerSocket
                     NetworkStream networkStream = clientSocket.GetStream();
                     byte[] bytes = new byte[clientSocket.ReceiveBufferSize];
                     int bytesRead = networkStream.Read(bytes, 0, clientSocket.ReceiveBufferSize);
-                    string receivedData = Encoding.UTF8.GetString(bytes);
+                    string receivedData = Encoding.ASCII.GetString(bytes);
 
                     receivedData = receivedData.Replace("\0", String.Empty);
                     receivedData = receivedData.Replace("$", String.Empty);

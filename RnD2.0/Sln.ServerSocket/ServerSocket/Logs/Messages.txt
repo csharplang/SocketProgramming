@@ -452,3 +452,51 @@ Log Entry : 3:11:13 PM Sunday, September 30, 2018
   :
   :A
 -------------------------------
+
+Log Entry : 4:48:12 PM Sunday, September 30, 2018
+  :
+  : >> Server Started: 9/30/2018 4:48:12 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 4:48:19 PM Sunday, September 30, 2018
+  :
+  : >> Accept connection from client: 9/30/2018 4:48:19 PM
+-------------------------------
+
+Log Entry : 4:49:31 PM Sunday, September 30, 2018
+  :
+  : >> Server Started: 9/30/2018 4:49:31 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 4:49:34 PM Sunday, September 30, 2018
+  :
+  : >> Accept connection from client: 9/30/2018 4:49:34 PM
+-------------------------------
+
+Log Entry : 4:49:55 PM Sunday, September 30, 2018
+  :
+  :⑁
+-------------------------------
+
+Log Entry : 4:50:17 PM Sunday, September 30, 2018
+  :
+  : >> Server Started: 9/30/2018 4:50:17 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 4:50:19 PM Sunday, September 30, 2018
+  :
+  : >> Accept connection from client: 9/30/2018 4:50:19 PM
+-------------------------------
+
+Log Entry : 4:50:25 PM Sunday, September 30, 2018
+  :
+  :A
+-------------------------------
+
+Log Entry : 4:50:44 PM Sunday, September 30, 2018
+  :
+  :B
+-------------------------------

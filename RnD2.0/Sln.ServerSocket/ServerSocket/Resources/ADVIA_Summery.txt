@@ -4,7 +4,7 @@ Data Link Messages in chapter 2.
 
 Communications protocols other than the ASTM protocol
 
-Note In the Protocol area, ASTM protocol uses 8-bit, single-byte
+*****Note In the Protocol area, ASTM protocol uses 8-bit, single-byte
 characters. ASTM protocol does not support UNICODE characters
 
 Using ASTM protocol and sending non-8 bit ASCII values in the records to
@@ -47,10 +47,12 @@ characters, error recovery, and a state transition diagram
 
 The ASTM communications protocol uses a standard RS-232
 
+The physical layer transmits and receives a bit stream of data across the
+physical medium.
 
 
 
-
+Unicode Character 'ENQUIRY' (U+0005) - FileFormat.Info
 
 
 

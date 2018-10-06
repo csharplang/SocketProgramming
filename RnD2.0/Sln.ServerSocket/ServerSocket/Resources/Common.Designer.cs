@@ -61,7 +61,7 @@ namespace ServerSocket.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 192.168.0.100.
+        ///   Looks up a localized string similar to 192.168.0.104.
         /// </summary>
         public static string ServerIP {
             get {

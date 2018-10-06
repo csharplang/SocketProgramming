@@ -500,3 +500,51 @@ Log Entry : 4:50:44 PM Sunday, September 30, 2018
   :
   :B
 -------------------------------
+
+Log Entry : 10:11:06 PM Saturday, October 6, 2018
+  :
+  : >> Server Started: 10/6/2018 10:11:06 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 10:12:09 PM Saturday, October 6, 2018
+  :
+  : >> Accept connection from client: 10/6/2018 10:12:09 PM
+-------------------------------
+
+Log Entry : 10:12:27 PM Saturday, October 6, 2018
+  :
+  :AAA
+-------------------------------
+
+Log Entry : 10:12:40 PM Saturday, October 6, 2018
+  :
+  : >> Connection lost... :10/6/2018 10:12:40 PM
+-------------------------------
+
+Log Entry : 10:12:40 PM Saturday, October 6, 2018
+  :
+  : >> Server Started after connection lost: 10/6/2018 10:12:40 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 10:12:51 PM Saturday, October 6, 2018
+  :
+  : >> Accept connection from client: 10/6/2018 10:12:51 PM
+-------------------------------
+
+Log Entry : 10:12:57 PM Saturday, October 6, 2018
+  :
+  :BBB
+-------------------------------
+
+Log Entry : 10:12:59 PM Saturday, October 6, 2018
+  :
+  : >> Connection lost... :10/6/2018 10:12:59 PM
+-------------------------------
+
+Log Entry : 10:12:59 PM Saturday, October 6, 2018
+  :
+  : >> Server Started after connection lost: 10/6/2018 10:12:59 PM 
+ ## Waiting for connection... 
+-------------------------------

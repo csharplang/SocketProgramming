@@ -1,0 +1,683 @@
+
+Log Entry : 2:40:30 AM Tuesday, September 25, 2018
+  :
+  : >> Server Started: 9/25/2018 2:40:30 AM 
+ >> Waiting for connection... 
+-------------------------------
+
+Log Entry : 2:42:12 AM Tuesday, September 25, 2018
+  :
+  : >> Accept connection from client: 9/25/2018 2:42:12 AM
+-------------------------------
+
+Log Entry : 2:42:20 AM Tuesday, September 25, 2018
+  :
+  :Hello world!
+-------------------------------
+
+Log Entry : 2:42:24 AM Tuesday, September 25, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 2:42:24 AM Tuesday, September 25, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 2:42:24 AM Tuesday, September 25, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 2:42:26 AM Tuesday, September 25, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 2:42:26 AM Tuesday, September 25, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 2:42:26 AM Tuesday, September 25, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 2:42:28 AM Tuesday, September 25, 2018
+  :
+  : >> Connection lost... :9/25/2018 2:42:28 AM
+-------------------------------
+
+Log Entry : 2:42:28 AM Tuesday, September 25, 2018
+  :
+  : >> Server Started after connection lost: 9/25/2018 2:42:28 AM 
+  >> Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:30:42 AM Friday, September 28, 2018
+  :
+  : >> Server Started: 9/28/2018 12:30:42 AM 
+ >> Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:30:52 AM Friday, September 28, 2018
+  :
+  : >> Accept connection from client: 9/28/2018 12:30:52 AM
+-------------------------------
+
+Log Entry : 12:30:57 AM Friday, September 28, 2018
+  :
+  :FSDFSADFASDFGSDGDFG
+-------------------------------
+
+Log Entry : 12:31:01 AM Friday, September 28, 2018
+  :
+  : >> Connection lost... :9/28/2018 12:31:01 AM
+-------------------------------
+
+Log Entry : 12:31:01 AM Friday, September 28, 2018
+  :
+  : >> Server Started after connection lost: 9/28/2018 12:31:01 AM 
+  >> Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:35:13 AM Friday, September 28, 2018
+  :
+  : >> Server Started: 9/28/2018 12:35:13 AM 
+ >> Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:35:19 AM Friday, September 28, 2018
+  :
+  : >> Accept connection from client: 9/28/2018 12:35:19 AM
+-------------------------------
+
+Log Entry : 12:35:26 AM Friday, September 28, 2018
+  :
+  : >> Connection lost... :9/28/2018 12:35:26 AM
+-------------------------------
+
+Log Entry : 12:35:26 AM Friday, September 28, 2018
+  :
+  : >> Server Started after connection lost: 9/28/2018 12:35:26 AM 
+  >> Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:37:06 AM Friday, September 28, 2018
+  :
+  : >> Server Started: 9/28/2018 12:37:06 AM 
+ >> Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:37:36 AM Friday, September 28, 2018
+  :
+  : >> Accept connection from client: 9/28/2018 12:37:36 AM
+-------------------------------
+
+Log Entry : 12:37:43 AM Friday, September 28, 2018
+  :
+  :dfagsdf
+-------------------------------
+
+Log Entry : 12:37:46 AM Friday, September 28, 2018
+  :
+  : >> Connection lost... :9/28/2018 12:37:46 AM
+-------------------------------
+
+Log Entry : 12:37:46 AM Friday, September 28, 2018
+  :
+  : >> Server Started after connection lost: 9/28/2018 12:37:46 AM 
+  >> Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:38:47 AM Friday, September 28, 2018
+  :
+  : >> Server Started: 9/28/2018 12:38:47 AM 
+ >> Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:38:51 AM Friday, September 28, 2018
+  :
+  : >> Accept connection from client: 9/28/2018 12:38:51 AM
+-------------------------------
+
+Log Entry : 12:38:55 AM Friday, September 28, 2018
+  :
+  :asdfsafasfd
+-------------------------------
+
+Log Entry : 12:38:57 AM Friday, September 28, 2018
+  :
+  : >> Connection lost... :9/28/2018 12:38:57 AM
+-------------------------------
+
+Log Entry : 12:38:57 AM Friday, September 28, 2018
+  :
+  : >> Server Started after connection lost: 9/28/2018 12:38:57 AM 
+ >> Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:39:48 AM Friday, September 28, 2018
+  :
+  : >> Server Started: 9/28/2018 12:39:48 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:40:25 AM Friday, September 28, 2018
+  :
+  : >> Accept connection from client: 9/28/2018 12:40:25 AM
+-------------------------------
+
+Log Entry : 12:40:29 AM Friday, September 28, 2018
+  :
+  :aSDFsdf
+-------------------------------
+
+Log Entry : 12:40:30 AM Friday, September 28, 2018
+  :
+  : >> Connection lost... :9/28/2018 12:40:30 AM
+-------------------------------
+
+Log Entry : 12:40:30 AM Friday, September 28, 2018
+  :
+  : >> Server Started after connection lost: 9/28/2018 12:40:30 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 11:38:19 AM Saturday, September 29, 2018
+  :
+  : >> Server Started: 9/29/2018 11:38:19 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 11:39:01 AM Saturday, September 29, 2018
+  :
+  : >> Accept connection from client: 9/29/2018 11:39:01 AM
+-------------------------------
+
+Log Entry : 11:39:12 AM Saturday, September 29, 2018
+  :
+  :sadf
+-------------------------------
+
+Log Entry : 11:39:14 AM Saturday, September 29, 2018
+  :
+  :sadf
+-------------------------------
+
+Log Entry : 11:39:16 AM Saturday, September 29, 2018
+  :
+  : >> Connection lost... :9/29/2018 11:39:16 AM
+-------------------------------
+
+Log Entry : 11:39:16 AM Saturday, September 29, 2018
+  :
+  : >> Server Started after connection lost: 9/29/2018 11:39:16 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 11:39:31 AM Saturday, September 29, 2018
+  :
+  : >> Server Started: 9/29/2018 11:39:31 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 11:39:36 AM Saturday, September 29, 2018
+  :
+  : >> Accept connection from client: 9/29/2018 11:39:36 AM
+-------------------------------
+
+Log Entry : 11:39:43 AM Saturday, September 29, 2018
+  :
+  :Dsdfsdf
+-------------------------------
+
+Log Entry : 11:40:05 AM Saturday, September 29, 2018
+  :
+  :AAA
+-------------------------------
+
+Log Entry : 11:56:04 AM Saturday, September 29, 2018
+  :
+  : >> Server Started: 9/29/2018 11:56:04 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 11:56:18 AM Saturday, September 29, 2018
+  :
+  : >> Accept connection from client: 9/29/2018 11:56:18 AM
+-------------------------------
+
+Log Entry : 11:56:30 AM Saturday, September 29, 2018
+  :
+  :Hello
+-------------------------------
+
+Log Entry : 11:56:34 AM Saturday, September 29, 2018
+  :
+  :AAA
+-------------------------------
+
+Log Entry : 11:56:48 AM Saturday, September 29, 2018
+  :
+  : >> Connection lost... :9/29/2018 11:56:48 AM
+-------------------------------
+
+Log Entry : 11:56:48 AM Saturday, September 29, 2018
+  :
+  : >> Server Started after connection lost: 9/29/2018 11:56:48 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 11:58:53 AM Saturday, September 29, 2018
+  :
+  : >> Server Started: 9/29/2018 11:58:53 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 2:45:07 PM Sunday, September 30, 2018
+  :
+  : >> Server Started: 9/30/2018 2:45:07 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 2:45:17 PM Sunday, September 30, 2018
+  :
+  : >> Accept connection from client: 9/30/2018 2:45:17 PM
+-------------------------------
+
+Log Entry : 2:45:28 PM Sunday, September 30, 2018
+  :
+  :Hello
+-------------------------------
+
+Log Entry : 2:46:45 PM Sunday, September 30, 2018
+  :
+  : >> Server Started: 9/30/2018 2:46:45 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 2:46:53 PM Sunday, September 30, 2018
+  :
+  : >> Accept connection from client: 9/30/2018 2:46:53 PM
+-------------------------------
+
+Log Entry : 2:46:57 PM Sunday, September 30, 2018
+  :
+  :Hello
+-------------------------------
+
+Log Entry : 2:46:59 PM Sunday, September 30, 2018
+  :
+  : >> Connection lost... :9/30/2018 2:46:59 PM
+-------------------------------
+
+Log Entry : 2:46:59 PM Sunday, September 30, 2018
+  :
+  : >> Server Started after connection lost: 9/30/2018 2:46:59 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 2:47:24 PM Sunday, September 30, 2018
+  :
+  : >> Server Started: 9/30/2018 2:47:24 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 2:47:29 PM Sunday, September 30, 2018
+  :
+  : >> Accept connection from client: 9/30/2018 2:47:29 PM
+-------------------------------
+
+Log Entry : 2:47:33 PM Sunday, September 30, 2018
+  :
+  :Hello
+-------------------------------
+
+Log Entry : 2:47:35 PM Sunday, September 30, 2018
+  :
+  : >> Connection lost... :9/30/2018 2:47:35 PM
+-------------------------------
+
+Log Entry : 2:47:35 PM Sunday, September 30, 2018
+  :
+  : >> Server Started after connection lost: 9/30/2018 2:47:35 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 2:48:07 PM Sunday, September 30, 2018
+  :
+  : >> Server Started: 9/30/2018 2:48:07 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 2:48:11 PM Sunday, September 30, 2018
+  :
+  : >> Accept connection from client: 9/30/2018 2:48:10 PM
+-------------------------------
+
+Log Entry : 2:48:17 PM Sunday, September 30, 2018
+  :
+  :�⑯
+-------------------------------
+
+Log Entry : 2:48:33 PM Sunday, September 30, 2018
+  :
+  :�
+-------------------------------
+
+Log Entry : 2:48:38 PM Sunday, September 30, 2018
+  :
+  :�⑯
+-------------------------------
+
+Log Entry : 2:48:40 PM Sunday, September 30, 2018
+  :
+  : >> Connection lost... :9/30/2018 2:48:40 PM
+-------------------------------
+
+Log Entry : 2:48:40 PM Sunday, September 30, 2018
+  :
+  : >> Server Started after connection lost: 9/30/2018 2:48:40 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 2:49:10 PM Sunday, September 30, 2018
+  :
+  : >> Server Started: 9/30/2018 2:49:10 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 2:49:19 PM Sunday, September 30, 2018
+  :
+  : >> Accept connection from client: 9/30/2018 2:49:19 PM
+-------------------------------
+
+Log Entry : 2:49:25 PM Sunday, September 30, 2018
+  :
+  :效汬⑯
+-------------------------------
+
+Log Entry : 2:49:29 PM Sunday, September 30, 2018
+  :
+  :敄⑶
+-------------------------------
+
+Log Entry : 2:49:36 PM Sunday, September 30, 2018
+  :
+  :㐱㔮␵
+-------------------------------
+
+Log Entry : 2:49:41 PM Sunday, September 30, 2018
+  :
+  : >> Connection lost... :9/30/2018 2:49:41 PM
+-------------------------------
+
+Log Entry : 2:49:41 PM Sunday, September 30, 2018
+  :
+  : >> Server Started after connection lost: 9/30/2018 2:49:41 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 3:08:09 PM Sunday, September 30, 2018
+  :
+  : >> Server Started: 9/30/2018 3:08:08 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 3:08:20 PM Sunday, September 30, 2018
+  :
+  : >> Accept connection from client: 9/30/2018 3:08:20 PM
+-------------------------------
+
+Log Entry : 3:10:16 PM Sunday, September 30, 2018
+  :
+  :⑁
+-------------------------------
+
+Log Entry : 3:10:45 PM Sunday, September 30, 2018
+  :
+  : >> Server Started: 9/30/2018 3:10:45 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 3:11:05 PM Sunday, September 30, 2018
+  :
+  : >> Accept connection from client: 9/30/2018 3:11:05 PM
+-------------------------------
+
+Log Entry : 3:11:13 PM Sunday, September 30, 2018
+  :
+  :A
+-------------------------------
+
+Log Entry : 4:48:12 PM Sunday, September 30, 2018
+  :
+  : >> Server Started: 9/30/2018 4:48:12 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 4:48:19 PM Sunday, September 30, 2018
+  :
+  : >> Accept connection from client: 9/30/2018 4:48:19 PM
+-------------------------------
+
+Log Entry : 4:49:31 PM Sunday, September 30, 2018
+  :
+  : >> Server Started: 9/30/2018 4:49:31 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 4:49:34 PM Sunday, September 30, 2018
+  :
+  : >> Accept connection from client: 9/30/2018 4:49:34 PM
+-------------------------------
+
+Log Entry : 4:49:55 PM Sunday, September 30, 2018
+  :
+  :⑁
+-------------------------------
+
+Log Entry : 4:50:17 PM Sunday, September 30, 2018
+  :
+  : >> Server Started: 9/30/2018 4:50:17 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 4:50:19 PM Sunday, September 30, 2018
+  :
+  : >> Accept connection from client: 9/30/2018 4:50:19 PM
+-------------------------------
+
+Log Entry : 4:50:25 PM Sunday, September 30, 2018
+  :
+  :A
+-------------------------------
+
+Log Entry : 4:50:44 PM Sunday, September 30, 2018
+  :
+  :B
+-------------------------------
+
+Log Entry : 10:11:06 PM Saturday, October 6, 2018
+  :
+  : >> Server Started: 10/6/2018 10:11:06 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 10:12:09 PM Saturday, October 6, 2018
+  :
+  : >> Accept connection from client: 10/6/2018 10:12:09 PM
+-------------------------------
+
+Log Entry : 10:12:27 PM Saturday, October 6, 2018
+  :
+  :AAA
+-------------------------------
+
+Log Entry : 10:12:40 PM Saturday, October 6, 2018
+  :
+  : >> Connection lost... :10/6/2018 10:12:40 PM
+-------------------------------
+
+Log Entry : 10:12:40 PM Saturday, October 6, 2018
+  :
+  : >> Server Started after connection lost: 10/6/2018 10:12:40 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 10:12:51 PM Saturday, October 6, 2018
+  :
+  : >> Accept connection from client: 10/6/2018 10:12:51 PM
+-------------------------------
+
+Log Entry : 10:12:57 PM Saturday, October 6, 2018
+  :
+  :BBB
+-------------------------------
+
+Log Entry : 10:12:59 PM Saturday, October 6, 2018
+  :
+  : >> Connection lost... :10/6/2018 10:12:59 PM
+-------------------------------
+
+Log Entry : 10:12:59 PM Saturday, October 6, 2018
+  :
+  : >> Server Started after connection lost: 10/6/2018 10:12:59 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 10:07:05 AM Sunday, October 7, 2018
+  :
+  : >> Server Started: 10/7/2018 10:07:04 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 10:07:53 AM Sunday, October 7, 2018
+  :
+  : >> Accept connection from client: 10/7/2018 10:07:53 AM
+-------------------------------
+
+Log Entry : 10:08:19 AM Sunday, October 7, 2018
+  :
+  : >> Connection lost... :10/7/2018 10:08:19 AM
+-------------------------------
+
+Log Entry : 10:08:19 AM Sunday, October 7, 2018
+  :
+  : >> Server Started after connection lost: 10/7/2018 10:08:19 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 10:08:54 AM Sunday, October 7, 2018
+  :
+  : >> Accept connection from client: 10/7/2018 10:08:54 AM
+-------------------------------
+
+Log Entry : 10:09:07 AM Sunday, October 7, 2018
+  :
+  :AAA
+
+-------------------------------
+
+Log Entry : 10:09:14 AM Sunday, October 7, 2018
+  :
+  :BBB
+-------------------------------
+
+Log Entry : 10:09:21 AM Sunday, October 7, 2018
+  :
+  :AAA
+-------------------------------
+
+Log Entry : 10:09:28 AM Sunday, October 7, 2018
+  :
+  :OOO
+
+PPP
+-------------------------------
+
+Log Entry : 10:10:08 AM Sunday, October 7, 2018
+  :
+  : >> Connection lost... :10/7/2018 10:10:08 AM
+-------------------------------
+
+Log Entry : 10:10:08 AM Sunday, October 7, 2018
+  :
+  : >> Server Started after connection lost: 10/7/2018 10:10:08 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 10:10:33 AM Sunday, October 7, 2018
+  :
+  : >> Accept connection from client: 10/7/2018 10:10:33 AM
+-------------------------------
+
+Log Entry : 10:10:35 AM Sunday, October 7, 2018
+  :
+  : >> Connection lost... :10/7/2018 10:10:35 AM
+-------------------------------
+
+Log Entry : 10:10:35 AM Sunday, October 7, 2018
+  :
+  : >> Server Started after connection lost: 10/7/2018 10:10:35 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 10:12:25 AM Sunday, October 7, 2018
+  :
+  : >> Accept connection from client: 10/7/2018 10:12:25 AM
+-------------------------------
+
+Log Entry : 10:12:39 AM Sunday, October 7, 2018
+  :
+  :AAA
+-------------------------------
+
+Log Entry : 10:12:50 AM Sunday, October 7, 2018
+  :
+  :sfdasdfba.gv 
+
+sgb  
+
+ggrb 
+-------------------------------
+
+Log Entry : 10:12:52 AM Sunday, October 7, 2018
+  :
+  : >> Connection lost... :10/7/2018 10:12:52 AM
+-------------------------------
+
+Log Entry : 10:12:52 AM Sunday, October 7, 2018
+  :
+  : >> Server Started after connection lost: 10/7/2018 10:12:52 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:18:50 PM Sunday, October 7, 2018
+  :
+  : >> Server Started: 10/7/2018 12:18:50 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:20:42 PM Sunday, October 7, 2018
+  :
+  : >> Accept connection from client: 10/7/2018 12:20:42 PM
+-------------------------------
+
+Log Entry : 12:43:19 PM Sunday, October 7, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 12:43:19 PM Sunday, October 7, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 12:43:19 PM Sunday, October 7, 2018
+  :
+  :
+-------------------------------

@@ -1,6 +1,7 @@
 ﻿using ServerSocket.Logs;
 using ServerSocket.Resources;
 using System;
+using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -33,9 +34,16 @@ namespace ServerSocket
                     NetworkStream networkStream = clientSocket.GetStream();
                     byte[] bytes = new byte[clientSocket.ReceiveBufferSize];
                     int bytesRead = networkStream.Read(bytes, 0, clientSocket.ReceiveBufferSize);
-                    string receivedData = Encoding.ASCII.GetString(bytes);
+                    string receivedData = ASCIIEncoding.ASCII.GetString(bytes);
+
+
+
+
+                    //byte[] bytes2 = ASCIIEncoding.ASCII.GetBytes(bytes);
+                    //string receivedData2 = Convert.ToBase64String(bytes);
 
                     receivedData = receivedData.Replace("\0", String.Empty);
+
                     receivedData = receivedData.Replace("$", String.Empty);
                     Console.WriteLine(" >> Data from client - " + receivedData);
                     Helper.WrittingLogs(receivedData);
@@ -72,7 +80,7 @@ namespace ServerSocket
         }
 
 
-       
+
 
     }
 }

@@ -89,6 +89,9 @@ ipch/
 *.vsp
 *.vspx
 *.sap
+*.dll
+*.xml
+*.exe
 
 # TFS 2012 Local Workspace
 $tf/

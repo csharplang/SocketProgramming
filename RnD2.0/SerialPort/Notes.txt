@@ -1,0 +1,20 @@
+1:43 AM 1/1/2019
+
+Null-modem emulator 
+http://com0com.sourceforge.net/
+More emulator:
+https://www.eltima.com/best-virtual-null-modems/#2
+Tutorials:
+https://www.youtube.com/watch?v=BGb5LIyMmvM  (Good one)
+https://www.youtube.com/watch?v=I6uhMIFTF24
+
+LIS: mazeda: 
+HandleSerialMessage1: 9490
+HandleSerialMessage2: 9497
+
+HandleArchitectMachinSerialData
+
+
+Github examples:
+https://github.com/naihaishy/SerialPort-Communication
+https://www.studentcompanion.co.za/creating-a-serial-port-interface-with-c/

@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO.Ports;
+using System.Text;
 
 namespace WriteData
 {
@@ -7,9 +9,12 @@ namespace WriteData
     {
         static void Main(string[] args)
         {
+            //var abc = HandleSerialMessage1("ABCD");
+            //var ab2 = HandleSerialMessage2("ABCD");
+
             // Instantiate the communications
             // port with some basic settings
-            SerialPort port = new SerialPort("COM1", 9600, Parity.None, 8, StopBits.One);
+            SerialPort port = new SerialPort("COM2", 9600, Parity.None, 8, StopBits.One);
             // Open the port for communications
             port.Open();
             // Write a string
@@ -23,6 +28,22 @@ namespace WriteData
             Console.WriteLine("Hello World!");
 
             Console.ReadLine();
+        }
+
+        private static string HandleSerialMessage1(string data)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.Append('\x0006');
+            return stringBuilder.ToString();
+        }
+
+        private static string HandleSerialMessage2(string data)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.Append('\v');
+            stringBuilder.Append('\x001C');
+            stringBuilder.Append('\r');
+            return stringBuilder.ToString();
         }
     }
 }

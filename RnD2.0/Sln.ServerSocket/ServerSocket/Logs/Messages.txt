@@ -49366,3 +49366,9 @@ Log Entry : 2:47:23 PM Sunday, October 7, 2018
   :
   :
 -------------------------------
+
+Log Entry : 12:01:53 AM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 12:01:53 AM 
+ ## Waiting for connection... 
+-------------------------------

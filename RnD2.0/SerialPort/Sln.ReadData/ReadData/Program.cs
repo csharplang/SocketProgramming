@@ -6,16 +6,15 @@ namespace ReadData
     class Program
     {
         // Create the serial port with basic settings
-        private SerialPort port = new SerialPort("COM1",9600, Parity.None, 8, StopBits.One);
+        private SerialPort port = new SerialPort("COM1", 9600, Parity.None, 8, StopBits.One);
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-           
             Console.ReadKey();
         }
 
         private void SerialPortProgram()
-        {
+        {           
             Console.WriteLine("Incoming Data:");
 
             // Attach a method to be called when there
@@ -29,8 +28,8 @@ namespace ReadData
             //Application.Run();
         }
 
-        private void port_DataReceived(object sender,SerialDataReceivedEventArgs e)
-        {
+        private void port_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        {          
             // Show all the incoming data in the port's buffer
             Console.WriteLine(port.ReadExisting());
         }

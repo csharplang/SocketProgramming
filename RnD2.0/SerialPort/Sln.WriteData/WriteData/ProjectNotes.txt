@@ -4,3 +4,14 @@ Install-Package System.IO.Ports -Version 4.5.0
 
 Ref:
 https://blogs.msmvps.com/coad/2005/03/23/serialport-rs-232-serial-com-port-in-c-net/
+
+
+List<string> allPorts = new List<string>();
+foreach (string portName in SerialPort.GetPortNames())
+{
+    allPorts.Add(portName);
+}
+
+var abc = allPorts;
+
+

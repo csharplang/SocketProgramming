@@ -1,10 +1,13 @@
 ﻿using ServerSocket.Logs;
 using ServerSocket.Resources;
 using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace ServerSocket
 {
@@ -32,9 +35,14 @@ namespace ServerSocket
                     requestCount = requestCount + 1;
 
                     NetworkStream networkStream = clientSocket.GetStream();
-                    byte[] bytes = new byte[clientSocket.ReceiveBufferSize];
+                    StreamReader sr = new StreamReader(networkStream);
+                    string result = sr.ReadToEnd();
+                    byte[] data = FromHex(result);
+                    string s = Encoding.BigEndianUnicode.GetString(data); // GatewayServer
+
+                    byte[] bytes = new byte[400000000000000];
                     int bytesRead = networkStream.Read(bytes, 0, clientSocket.ReceiveBufferSize);
-                    string receivedData = ASCIIEncoding.ASCII.GetString(bytes);
+                    string receivedData = Encoding.ASCII.GetString(bytes);
 
 
 
@@ -79,6 +87,16 @@ namespace ServerSocket
             }
         }
 
+        public static byte[] FromHex(string hex)
+        {
+            hex = hex.Replace("-", "");
+            byte[] raw = new byte[hex.Length / 2];
+            for (int i = 0; i < raw.Length; i++)
+            {
+                raw[i] = Convert.ToByte(hex.Substring(i * 2, 2), 16);
+            }
+            return raw;
+        }
 
 
 

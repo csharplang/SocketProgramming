@@ -49367,8 +49367,382 @@ Log Entry : 2:47:23 PM Sunday, October 7, 2018
   :
 -------------------------------
 
-Log Entry : 12:01:53 AM Wednesday, December 5, 2018
+Log Entry : 12:07:14 AM Wednesday, December 5, 2018
   :
-  : >> Server Started: 12/5/2018 12:01:53 AM 
+  : >> Server Started: 12/5/2018 12:07:14 AM 
  ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:07:37 AM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 12:07:37 AM
+-------------------------------
+
+Log Entry : 12:07:50 AM Wednesday, December 5, 2018
+  :
+  :Hello world
+-------------------------------
+
+Log Entry : 12:08:10 AM Wednesday, December 5, 2018
+  :
+  :What is unit testing?
+Unit testing is used to test a small piece of workable code (operational) called unit
+Unit testing is a kind of testing done at the developer side
+It is used to test methods, properties, classes, and assemblies
+Unit testing is not testing done by the quality assurance department
+
+-------------------------------
+
+Log Entry : 12:08:17 AM Wednesday, December 5, 2018
+  :
+  : >> Connection lost... :12/5/2018 12:08:17 AM
+-------------------------------
+
+Log Entry : 12:08:17 AM Wednesday, December 5, 2018
+  :
+  : >> Server Started after connection lost: 12/5/2018 12:08:17 AM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:11:06 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 12:11:06 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:11:47 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 12:11:47 PM
+-------------------------------
+
+Log Entry : 12:12:46 PM Wednesday, December 5, 2018
+  :
+  :Test 01: 88.90
+Test 02: 78.0 55 90
+-------------------------------
+
+Log Entry : 12:14:43 PM Wednesday, December 5, 2018
+  :
+  : >> Connection lost... :12/5/2018 12:14:43 PM
+-------------------------------
+
+Log Entry : 12:14:43 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started after connection lost: 12/5/2018 12:14:43 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:16:04 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 12:16:04 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:16:21 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 12:16:21 PM
+-------------------------------
+
+Log Entry : 12:31:27 PM Wednesday, December 5, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 12:31:27 PM Wednesday, December 5, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 12:31:27 PM Wednesday, December 5, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 12:55:27 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 12:55:27 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:55:49 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 12:55:49 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 12:55:53 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 12:55:53 PM
+-------------------------------
+
+Log Entry : 12:59:50 PM Wednesday, December 5, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 1:00:28 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:00:28 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:00:35 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:00:35 PM
+-------------------------------
+
+Log Entry : 1:06:36 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:06:36 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:06:50 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:06:50 PM
+-------------------------------
+
+Log Entry : 1:07:52 PM Wednesday, December 5, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 1:10:04 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:10:04 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:10:05 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:10:05 PM
+-------------------------------
+
+Log Entry : 1:10:07 PM Wednesday, December 5, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 1:10:09 PM Wednesday, December 5, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 1:10:32 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:10:32 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:10:36 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:10:36 PM
+-------------------------------
+
+Log Entry : 1:10:39 PM Wednesday, December 5, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 1:14:22 PM Wednesday, December 5, 2018
+  :
+  :
+-------------------------------
+
+Log Entry : 1:24:24 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:24:24 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:24:39 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:24:39 PM
+-------------------------------
+
+Log Entry : 1:25:35 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:25:35 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:25:36 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:25:36 PM
+-------------------------------
+
+Log Entry : 1:26:32 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:26:32 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:26:33 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:26:33 PM
+-------------------------------
+
+Log Entry : 1:27:00 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:27:00 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:27:02 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:27:02 PM
+-------------------------------
+
+Log Entry : 1:28:25 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:28:25 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:28:28 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:28:28 PM
+-------------------------------
+
+Log Entry : 1:28:44 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:28:44 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:29:35 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:29:35 PM
+-------------------------------
+
+Log Entry : 1:30:07 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:30:07 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:30:08 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:30:08 PM
+-------------------------------
+
+Log Entry : 1:31:20 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:31:20 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:31:43 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:31:43 PM
+-------------------------------
+
+Log Entry : 1:36:24 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:36:24 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:36:24 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:36:24 PM
+-------------------------------
+
+Log Entry : 1:36:50 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:36:50 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:37:05 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:37:05 PM
+-------------------------------
+
+Log Entry : 1:37:35 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:37:35 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:37:51 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:37:51 PM
+-------------------------------
+
+Log Entry : 1:46:51 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:46:51 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:46:54 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:46:54 PM
+-------------------------------
+
+Log Entry : 1:47:09 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:47:09 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:47:30 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:47:30 PM
+-------------------------------
+
+Log Entry : 1:47:44 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:47:44 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:48:02 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:48:02 PM
+-------------------------------
+
+Log Entry : 1:48:31 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:48:31 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:48:59 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:48:59 PM
+-------------------------------
+
+Log Entry : 1:50:27 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:50:27 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:50:30 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:50:30 PM
+-------------------------------
+
+Log Entry : 1:51:47 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:51:47 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:52:10 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:52:10 PM
+-------------------------------
+
+Log Entry : 1:52:27 PM Wednesday, December 5, 2018
+  :
+  : >> Server Started: 12/5/2018 1:52:27 PM 
+ ## Waiting for connection... 
+-------------------------------
+
+Log Entry : 1:52:30 PM Wednesday, December 5, 2018
+  :
+  : >> Accept connection from client: 12/5/2018 1:52:30 PM
 -------------------------------
